@@ -1,0 +1,81 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 546879500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should go the techfios test page",
+            "match": {
+              "location": "TechFios_Test_SkyBlue_StepDefinitions.user_should_go_the_techfios_test_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2922265100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechFios_Test_SkyBlue_StepDefinitions.beforeRun()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "user-should-be-on-the-techfios-test-page;user-should-be-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49060900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the button",
+            "match": {
+              "location": "TechFios_Test_SkyBlue_StepDefinitions.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "The background color will change to White",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Should be on the Techfios Test Page",
+    "description": "",
+    "id": "user-should-be-on-the-techfios-test-page",
+    "keyword": "Feature",
+    "uri": "features/TF_White.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]
